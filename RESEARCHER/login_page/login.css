@@ -1,0 +1,27 @@
+.login_modal_background_color{
+	background-color: #65AAF0; 
+	width: 40%; 
+	padding-bottom: 50px; 
+	padding-top: 40px;
+}
+
+.register_modal_background_color{
+    background-color: #65AAF0; 
+    width: 60%; 
+    padding-bottom: 50px; 
+    padding-top: 40px;
+}
+
+.user{
+	margin-bottom:10px; outline: none;
+    font-size: 1.1em;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin: 0 0 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}

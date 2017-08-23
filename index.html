@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MAX RESEARCHER</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/style1.css">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/npm.js"></script>
+</head>
+<body>
+	<div class="side-nav">
+		<ul>
+		  	<li class="side-nav-li">
+				<center>
+		  			<img src="rock600x400.jpg" width="125" height="110"><br/><br/>
+		  			<a href="">Edit Profile</a>
+		  		</center>
+		  	</li><br/><hr>
+		  	<div style="margin-left: 40px;">
+			  	<div class="list-group">
+				    <a href="" data-toggle="modal" data-target="#save"><i class="glyphicon glyphicon-saved"></i><span> Published Manuscript</span></a>
+				</div><hr>
+				<div class="list-group">      
+				    <a href="" data-toggle="modal" data-target="#finish"><i class="glyphicon glyphicon-pencil"></i><span class="info-box-text"> Draft Manuscript</span></a>
+				</div><hr>    
+				<div class="list-group">    
+				    <a href="" data-toggle="modal" data-target="#list"><i class="glyphicon glyphicon-duplicate"></i><span class="info-box-text"> References</span></a>  
+				</div><hr>
+			</div>	
+		</ul>
+	</div>
+	<div>
+		<div class="navbar">
+			<ul>
+			  	<li class="navbar">
+			  		<a href="#home">LOGO</a>
+			  	</li>
+			  	<li class="navbar" style="float: right; margin-right: 30px;">
+			  		<a href=""><span class="glyphicon glyphicon-cog"></span></a>
+			  	</li>
+			  	<li class="navbar" style="float: right;">
+			  		<a href=""><span class="glyphicon glyphicon-bell"></span></a>
+			  	</li>
+			  	<li class="navbar" style="float: right;">
+			  		<a href="">Home</a>
+			  	</li>
+			</ul>
+		</div>
+	</div>
+	<div class="side-nav" style="margin-top: 3px; margin-left: 80%;">
+		<ul>
+		  	<li class="side-nav-li" style="margin-top: 20px; margin-left: 20px;">
+		  		<span class="glyphicon glyphicon-tasks"></span> Reminders
+		  		<button class="btn btn-primary" data-toggle="modal" data-target="#note" style="margin-left: 60px;">Note</button>
+		  	</li><hr>
+		  	<div class="panel panel-default" style="margin-left: 10px; margin-right: 10px;">
+		      	<div class="panel-heading">
+		      		<a href="" style="float: right;" onclick="return confirm('You want to delete this post?')"><span class="glyphicon glyphicon-trash"></span></a>
+			      	<a href="" style="float: right; margin-right: 10px;"><span class="glyphicon glyphicon-edit"></span></a><br/>
+		      		Title : 
+			      	</div>
+		      	<div class="panel-body">
+		      		Note :
+		      	</div>
+		    </div>	  	
+		</ul>
+		<div class="modal fade" id="note" role="dialog">
+		 	<div class="modal-dialog" style="width: 340px;">
+		    	<div class="modal-content">
+		      		<div class="modal-body">
+				        <form method="POST">
+				        	<button type="button" class="close" data-dismiss="modal">&times;</button><br/><br/>
+				        	<input class="form-control" type="text" name="title" placeholder="Note title..." required><br/>
+					        <textarea class="form-control" name="body" placeholder="Place your note here..." style="height: 300px;"></textarea><br/>
+				          <input class="form-control btn btn-info" type="submit" name="note" value="Add Note"/>
+				        </form>
+		      		</div>
+		    	</div> 
+		  	</div>
+		</div>
+	</div>
+	<div class="fixed">	
+			<div class="dropdowns">
+  				<button type="button" class="btn btn-primary btn-circle btn-lg"><i class="glyphicon glyphicon-plus"></i></button>
+  				<div class="dropdown-contents">
+				  	<a href="">Create Manuscript</a><hr>
+				    <a href="">Create Reference</a>
+				</div>
+			</div>
+	</div>
+	<div style="margin-left: 300px; margin-right: 300px; margin-top: 30px;">
+		<form>
+		  	<input type="text" name="search" placeholder="Search..">
+		  	<button class="button2 button2"><span class="glyphicon glyphicon-search"></span></button>
+		</form>
+		<br/><br/>
+		<div>
+			<div class="panel panel-info">
+		      	<div class="panel-heading">
+			      	<a href="" style="float: right;" onclick="return confirm('You want to delete this post?')"><span class="glyphicon glyphicon-trash"></span></a>
+			      	<a href="" style="float: right; margin-right: 10px;"><span class="glyphicon glyphicon-edit"></span></a>
+			      	<br/><small style="color:gray;">Shared status: </small>
+			    </div>
+			    <div class="panel-body">
+			      	<div class="list-group">
+			      		 <div class="list-group-item" style="color: black;">
+			      		 	<span class="glyphicon glyphicon-file"></span> asdsad
+			      		 </div>
+			      	</div>
+			      	<small class="label label-info" style="float: right;">
+			      		<span class="glyphicon glyphicon-time"></span>ssadasds
+			      	</small>
+			    </div>
+		    </div>
+		</div>
+		<div>
+			<div class="panel panel-info">
+		      	<div class="panel-heading">
+			      	<a href="" style="float: right;" onclick="return confirm('You want to delete this post?')"><span class="glyphicon glyphicon-trash"></span></a>
+			      	<a href="" style="float: right; margin-right: 10px;"><span class="glyphicon glyphicon-edit"></span></a>
+			      	<br/><small style="color:gray;">Shared status: </small>
+			    </div>
+			    <div class="panel-body">
+			      	<div class="list-group">
+			      		 <div class="list-group-item" style="color: black;">
+			      		 	<span class="glyphicon glyphicon-file"></span> asdsad
+			      		 </div>
+			      	</div>
+			      	<small class="label label-info" style="float: right;">
+			      		<span class="glyphicon glyphicon-time"></span>ssadasds
+			      	</small>
+			    </div>
+		    </div>
+		</div>
+		<div>
+			<div class="panel panel-info">
+		      	<div class="panel-heading">
+			      	<a href="" style="float: right;" onclick="return confirm('You want to delete this post?')"><span class="glyphicon glyphicon-trash"></span></a>
+			      	<a href="" style="float: right; margin-right: 10px;"><span class="glyphicon glyphicon-edit"></span></a>
+			      	<br/><small style="color:gray;">Shared status: </small>
+			    </div>
+			    <div class="panel-body">
+			      	<div class="list-group">
+			      		 <div class="list-group-item" style="color: black;">
+			      		 	<span class="glyphicon glyphicon-file"></span> asdsad
+			      		 </div>
+			      	</div>
+			      	<small class="label label-info" style="float: right;">
+			      		<span class="glyphicon glyphicon-time"></span>ssadasds
+			      	</small>
+			    </div>
+		    </div>
+		</div>
+		<div>
+			<div class="panel panel-info">
+		      	<div class="panel-heading">
+			      	<a href="" style="float: right;" onclick="return confirm('You want to delete this post?')"><span class="glyphicon glyphicon-trash"></span></a>
+			      	<a href="" style="float: right; margin-right: 10px;"><span class="glyphicon glyphicon-edit"></span></a>
+			      	<br/><small style="color:gray;">Shared status: </small>
+			    </div>
+			    <div class="panel-body">
+			      	<div class="list-group">
+			      		 <div class="list-group-item" style="color: black;">
+			      		 	<span class="glyphicon glyphicon-file"></span> asdsad
+			      		 </div>
+			      	</div>
+			      	<small class="label label-info" style="float: right;">
+			      		<span class="glyphicon glyphicon-time"></span>ssadasds
+			      	</small>
+			    </div>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>
